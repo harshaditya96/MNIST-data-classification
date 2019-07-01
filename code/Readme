@@ -1,0 +1,10 @@
+nnScript.py : Python script for the project
+    -- preprocess(): performs some preprocess tasks and output the preprocesses train, validation and test data with their corresponding labels.
+    -- sigmoid(): compute sigmoid function. Input can be scalar value, a vector or a matrix
+    -- nnObjFunction(): compare the error function of Neural Network.
+    -- nnPredict(): predicts the label of data given the parameters of Neural Network
+    -- initializeWeights(): return the random weights for Neural Network given the number of unit in the input laayer and output layer.
+    
+facennScript.py: Python script for running ur neural network implementation onn the CelebA dataset.
+deepnnScript.py: Python script for calling TensorFlow library for running the deep neural network.
+cnnScript.py: Python script for calling the TensorFlow library for convolutional neural network.
